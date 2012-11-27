@@ -1,0 +1,330 @@
+﻿body
+{
+    margin: 5px;
+    font-family: 'Open Sans', serif;
+    font-size: 15px;
+    color: black;
+}
+
+a, a:active, a:visited, a:link
+{
+    color: rgba(27, 86, 191, 0.95);
+    text-decoration: none;
+}
+
+a img
+{
+    border: 0px;
+}
+
+td
+{
+    vertical-align: top;
+    text-align: left;
+}
+
+ul, ol
+{
+    list-style-type: none;
+    padding: 2px 1px 2px 1px;
+    color: #fff;
+}
+
+h1
+{
+    font-size: 16px;
+}
+
+h2, h3
+{
+    font-size: 22px;
+    text-shadow: 2px -1px 3px rgba(128, 128, 128, 0.89);
+    font-family: 'PT Sans Narrow', serif;
+    padding-left: 20px;
+}
+
+h4
+{
+    font-size: 13px;
+}
+
+.v-centered
+{
+    vertical-align: middle;
+}
+
+.h-centered
+{
+    text-align: center;
+    alignment-adjust: central;
+}
+
+.l-aligned
+{
+    text-align: left;
+}
+
+.r-aligned
+{
+    text-align: right;
+}
+
+.full-width
+{
+    width: 100%;
+}
+
+.logo
+{
+    font-family: 'Open Sans', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    padding: 5px;
+    text-shadow: 2px 1px 3px #808080;
+}
+
+.logo:hover
+{
+    transition: all 0.4s ease-in-out;
+    color: rgba(27, 86, 191, 0.95);
+    text-shadow: -2px -2px 5px rgba(221, 221, 221, 0.75),
+        2px 2px 5px rgba(0, 0, 0, 0.75);
+}
+
+a.logo
+{
+    color: white;
+    text-decoration: none !important;
+    border: 0px;
+}
+
+.sublogo
+{
+    font-family: 'Scada';
+    font-size: 18px;
+    color: grey;
+    font-style: italic;
+    text-shadow: 1px -1px 2px #808080;
+}
+
+.footer
+{
+    font-family: 'Open Sans';
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    padding: 5px;
+    text-shadow: 2px 1px 3px #808080;
+}
+
+.span4
+{
+    width: 100%;
+    float: left;
+}
+
+.span2
+{
+    width: 50%;
+    margin: 5px;
+}
+
+.span3
+{
+    width: 33%;
+    margin: 5px;
+}
+
+.span1
+{
+    width: 25%;
+    margin: 5px;
+}
+
+.copyright
+{
+    font-family: 'Open Sans', serif;
+    font-size: 10pt; 
+    text-shadow: 1px 1px 2px #808080;  
+}
+
+.tile
+{
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.tile a:hover
+{
+    text-shadow: -2px -2px 3px #222,
+        2px 2px 3px #333;
+}
+
+.color1
+{
+    background-color: rgb(102, 153, 0);
+}
+
+.color1 h1, h2, h3, h4, h5
+{
+    color: white;
+}
+
+.color1 a, .color1 a:link, .color1 a:active, .color1 a:visited
+{
+    color: rgb(255, 204, 102);
+}
+
+.color2
+{
+    background-color: rgb(0, 102, 153);
+}
+
+.color2 h1, h2, h3, h4, h5
+{
+    color: white;
+}
+
+.color2 a, .color2 a:link, .color2 a:active, .color2 a:visited
+{
+    color: rgb(255, 204, 102);
+}
+
+.color3
+{
+    background-color: rgb(255, 204, 153);
+}
+
+.color3 h1, h2, h3, h4, h5
+{
+    color: white;
+}
+
+.color3 a, .color3 a:link, .color3 a:active, .color3 a:visited
+{
+    color: rgb(255, 204, 102);
+}
+
+.color4
+{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(217, 207, 207, 0.90);
+}
+
+.color4 a, .color4 a:link, .color4 a:active, .color4 a:visited
+{
+    color: rgb(255, 204, 102);
+}
+
+.color5
+{
+    background-color: rgb(102, 102, 51);
+}
+
+.color5 a, .color5 a:link, .color5 a:active, .color5 a:visited
+{
+    color: rgb(0, 102, 255);
+}
+
+.color-white
+{
+    color: #fff !important;
+}
+
+.hdr-tile
+{
+    border-radius: 8px;
+    background-color: rgb(255, 204, 102);
+    border: 1px solid rgb(255, 180, 90);
+    padding: 5px;
+    margin: 5px;
+    overflow: hidden;
+    vertical-align: top;
+ }
+
+.foot-tile
+{
+    border-radius: 8px;
+    background-color: rgb(255, 204, 102);
+    border: 1px solid rgb(255, 180, 90);
+    padding: 5px;
+    margin: 5px;
+    overflow: hidden;
+    vertical-align: top;
+ }
+
+.nav-tile
+{
+    border-radius: 8px;
+    background-color: rgba(217, 207, 207, 0.90);
+    border: 1px solid rgb(207, 197, 70);
+    padding: 5px;
+    margin: 5px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.main-tile
+{
+    border-radius: 8px;
+    background-color: rgba(187, 179, 73, 0.90);
+    padding: 3px 7px 12px 5px;
+    margin: 5px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.main-tile a:hover
+{
+    text-shadow: -2px -2px 3px #fff,
+        2px 2px 3px #fff;
+        
+}
+
+.recipe-title
+{
+    font-family: 'PT Sans Narrow', serif;
+    font-size: 15px;
+    color: rgb(102, 102, 51);
+}
+
+.recipe-tile a:hover
+{
+    text-shadow: -2px -2px 3px #fff,
+        2px 2px 3px #fff;
+}
+
+.recipe-legend
+{
+    color: rgb(0, 102, 153);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.recipe-text
+{
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.art_text
+{
+    font-family: 'PT Sans Narrow', serif;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #777,
+        -1px -1px 2px #888;
+}
+
+.donate
+{
+    text-align: center;
+    font-family:'Open Sans Narrow', serif;
+    font-size: 16px;
+    color:rgba(102, 102, 51, 0.90);
+}
